@@ -11,7 +11,7 @@
         "@sudobility/auth_service": "^1.1.27",
         "@sudobility/entity_service": "^1.0.47",
         "@sudobility/ratelimit_service": "^1.0.45",
-        "@sudobility/shaperouter_types": "^0.0.10",
+        "@sudobility/shaperouter_types": "^0.0.11",
         "@sudobility/shapeshyft_engine": "^1.0.12",
         "@sudobility/shapeshyft_service": "^1.0.12",
         "@sudobility/subscription_service": "^1.0.29",
@@ -313,7 +313,7 @@
 
     "@sudobility/ratelimit_service": ["@sudobility/ratelimit_service@1.0.45", "https://npm.pkg.github.com/download/@sudobility/ratelimit_service/1.0.45/162dd317153b5ff0babe22a6b0063ab351a3fe81", { "peerDependencies": { "@sudobility/types": "^1.9.74", "drizzle-orm": "^0.45.0", "hono": "^4.0.0", "postgres": "^3.4.0" } }, "sha512-wvk/mSNe2Vv2P5v33xObpzA8isN7Rat9stl/cxg29BDK76c2yB2OQccmlKMYf7XOroFomoYra4AiSopuTWWw8Q=="],
 
-    "@sudobility/shaperouter_types": ["@sudobility/shaperouter_types@0.0.10", "https://npm.pkg.github.com/download/@sudobility/shaperouter_types/0.0.10/f2079f88ef6fc8a478c593caf64fef5cde33f01a", { "dependencies": { "@sudobility/shapeshyft_engine": "^1.0.12" }, "peerDependencies": { "@sudobility/types": "^1.9.74" } }, "sha512-KDeddQOqOUYhrYlpJDDCONd88wJzdeQu9EgTey892X5QHwjcsb3rTjLb6j/9/p4G2ePf30g7aVmHDhJ8GOmqVg=="],
+    "@sudobility/shaperouter_types": ["@sudobility/shaperouter_types@0.0.11", "https://npm.pkg.github.com/download/@sudobility/shaperouter_types/0.0.11/34dc8c0c4db960856f5540e6a5192947ebd4977d", { "peerDependencies": { "@sudobility/shapeshyft_engine": "^1.0.12", "@sudobility/types": "^1.9.74" } }, "sha512-A+jBFiLg2aojfDflJue5bIIiH8/NgRUhyf5DtAE9vsRi5CYwcJh4DyChPpLIuTcft57HzE6g9ZmcFwqQA91nIw=="],
 
     "@sudobility/shapeshyft_engine": ["@sudobility/shapeshyft_engine@1.0.12", "https://npm.pkg.github.com/download/@sudobility/shapeshyft_engine/1.0.12/eb2fc50373abd3808ed16f948001f6e091ddea52", { "dependencies": { "@sudobility/types": "^1.9.72" }, "peerDependencies": { "@anthropic-ai/sdk": "^0.39.0", "@google/generative-ai": "^0.21.0", "groq-sdk": "^0.37.0", "openai": "^4.77.0", "sharp": "^0.35.4" } }, "sha512-gNVH89kzF7eVTwW+nXNKh1+eCEyjv3yluiiYUAw+xJfYsqbcKliMOFCT2Bs8RGczFC1juUCOscwbFlhCSlhsHA=="],
 
