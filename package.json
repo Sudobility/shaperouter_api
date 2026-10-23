@@ -1,6 +1,6 @@
 {
   "name": "shaperouter_api",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "module": "src/index.ts",
   "type": "module",
   "private": true,
@@ -61,6 +61,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/johnqh/shaperouter_api.git"
+    "url": "https://github.com/Sudobility/shaperouter_api.git"
   }
 }
