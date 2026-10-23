@@ -8,14 +8,14 @@
         "@anthropic-ai/sdk": "^0.39.0",
         "@google/generative-ai": "^0.21.0",
         "@hono/zod-validator": "^0.7.5",
-        "@sudobility/auth_service": "^1.1.22",
-        "@sudobility/entity_service": "^1.0.42",
-        "@sudobility/ratelimit_service": "^1.0.40",
-        "@sudobility/shaperouter_types": "^0.0.8",
-        "@sudobility/shapeshyft_engine": "^1.0.11",
-        "@sudobility/shapeshyft_service": "^1.0.11",
-        "@sudobility/subscription_service": "^1.0.24",
-        "@sudobility/types": "^1.9.68",
+        "@sudobility/auth_service": "^1.1.27",
+        "@sudobility/entity_service": "^1.0.47",
+        "@sudobility/ratelimit_service": "^1.0.45",
+        "@sudobility/shaperouter_types": "^0.0.10",
+        "@sudobility/shapeshyft_engine": "^1.0.12",
+        "@sudobility/shapeshyft_service": "^1.0.12",
+        "@sudobility/subscription_service": "^1.0.29",
+        "@sudobility/types": "^1.9.74",
         "drizzle-orm": "^0.45.0",
         "firebase-admin": "^13.6.0",
         "groq-sdk": "^0.37.0",
@@ -26,7 +26,7 @@
         "zod": "^3.24.0",
       },
       "devDependencies": {
-        "@sudobility/test-db-guard": "1.0.2",
+        "@sudobility/test-db-guard": "^1.0.3",
         "@types/bun": "latest",
         "@types/node": "^24.10.1",
         "@types/sharp": "^0.32.0",
@@ -307,23 +307,23 @@
 
     "@standard-schema/spec": ["@standard-schema/spec@1.1.0", "", {}, "sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w=="],
 
-    "@sudobility/auth_service": ["@sudobility/auth_service@1.1.22", "", { "peerDependencies": { "@sudobility/types": "^1.9.68", "firebase-admin": "^13.0.0" } }, "sha512-og3L/cK/XKidiONCepkCk9CTw1unmna4ASeXJjldWpeJNFArUwxw0gi/Smr7Csok4D4u6gK9J4p+dWFSZfBo0g=="],
+    "@sudobility/auth_service": ["@sudobility/auth_service@1.1.27", "https://npm.pkg.github.com/download/@sudobility/auth_service/1.1.27/4452ec62188db85520baa06feb8d37598e9b48e8", { "peerDependencies": { "@sudobility/types": "^1.9.74", "firebase-admin": "^13.0.0" } }, "sha512-SnrSgD+3qk5dnSu9tRTX8bWdbXHMKKtHmlWRIGQ9uLpxdyS58CLCJSrJhwJuAwCl/7a7JZPa2nu8bSN+2+bz/A=="],
 
-    "@sudobility/entity_service": ["@sudobility/entity_service@1.0.42", "", { "peerDependencies": { "@sudobility/types": "^1.9.68", "drizzle-orm": "^0.45.0", "hono": "^4.0.0" } }, "sha512-D72XFh7pXgEOYmFJrscbk/r3SJxp7Nmg1eWmoqVEb7CH1jsOx5YMSgzwu1A8+sy+oSCkPKc7wL1ZqF/pASM2eg=="],
+    "@sudobility/entity_service": ["@sudobility/entity_service@1.0.47", "https://npm.pkg.github.com/download/@sudobility/entity_service/1.0.47/16c7c9c43f7a69ea9b27a7929b7760e0d4645931", { "peerDependencies": { "@sudobility/types": "^1.9.74", "drizzle-orm": "^0.45.0", "hono": "^4.0.0" } }, "sha512-yZTvR4gKFDXwpl4oDcf/5x78PAI+P+vZyTg2bQ4xwkN65AfDdKMZ6DzgSHK1VzfyGzV1WgawcGzd6wcrI2mBNA=="],
 
-    "@sudobility/ratelimit_service": ["@sudobility/ratelimit_service@1.0.40", "", { "peerDependencies": { "@sudobility/types": "^1.9.68", "drizzle-orm": "^0.45.0", "hono": "^4.0.0", "postgres": "^3.4.0" } }, "sha512-ysoqjZZbGxUH2qMd4dE0pJfFb38lRe2pxWUUwDlUOmgCftxa86cfGjZt5FLGRY5t4Xz6d74S2bbpfX1tSWEXUQ=="],
+    "@sudobility/ratelimit_service": ["@sudobility/ratelimit_service@1.0.45", "https://npm.pkg.github.com/download/@sudobility/ratelimit_service/1.0.45/162dd317153b5ff0babe22a6b0063ab351a3fe81", { "peerDependencies": { "@sudobility/types": "^1.9.74", "drizzle-orm": "^0.45.0", "hono": "^4.0.0", "postgres": "^3.4.0" } }, "sha512-wvk/mSNe2Vv2P5v33xObpzA8isN7Rat9stl/cxg29BDK76c2yB2OQccmlKMYf7XOroFomoYra4AiSopuTWWw8Q=="],
 
-    "@sudobility/shaperouter_types": ["@sudobility/shaperouter_types@0.0.8", "", { "dependencies": { "@sudobility/shapeshyft_engine": "^1.0.11" }, "peerDependencies": { "@sudobility/types": "^1.9.68" } }, "sha512-zmZXsENMiW8x+Wka0shzZJ888HBNTnIo5PwZr3uXHxcZJtv2W46FG9ogr8xLCb4QfOg0B4LYTucnqpZ9FDp7qg=="],
+    "@sudobility/shaperouter_types": ["@sudobility/shaperouter_types@0.0.10", "https://npm.pkg.github.com/download/@sudobility/shaperouter_types/0.0.10/f2079f88ef6fc8a478c593caf64fef5cde33f01a", { "dependencies": { "@sudobility/shapeshyft_engine": "^1.0.12" }, "peerDependencies": { "@sudobility/types": "^1.9.74" } }, "sha512-KDeddQOqOUYhrYlpJDDCONd88wJzdeQu9EgTey892X5QHwjcsb3rTjLb6j/9/p4G2ePf30g7aVmHDhJ8GOmqVg=="],
 
-    "@sudobility/shapeshyft_engine": ["@sudobility/shapeshyft_engine@1.0.11", "", { "dependencies": { "@sudobility/types": "^1.9.68" }, "peerDependencies": { "@anthropic-ai/sdk": "^0.39.0", "@google/generative-ai": "^0.21.0", "groq-sdk": "^0.37.0", "openai": "^4.77.0", "sharp": "^0.35.4" }, "optionalPeers": ["@anthropic-ai/sdk", "@google/generative-ai", "groq-sdk", "openai", "sharp"] }, "sha512-APBo9RfIxUPSI1c/E4rVWAzwMrKjt2tXiK1faOhfYf519cU3p7neKDY+ToM06+ezo0vMfzRoWlrNT660hxepbg=="],
+    "@sudobility/shapeshyft_engine": ["@sudobility/shapeshyft_engine@1.0.12", "https://npm.pkg.github.com/download/@sudobility/shapeshyft_engine/1.0.12/eb2fc50373abd3808ed16f948001f6e091ddea52", { "dependencies": { "@sudobility/types": "^1.9.72" }, "peerDependencies": { "@anthropic-ai/sdk": "^0.39.0", "@google/generative-ai": "^0.21.0", "groq-sdk": "^0.37.0", "openai": "^4.77.0", "sharp": "^0.35.4" } }, "sha512-gNVH89kzF7eVTwW+nXNKh1+eCEyjv3yluiiYUAw+xJfYsqbcKliMOFCT2Bs8RGczFC1juUCOscwbFlhCSlhsHA=="],
 
-    "@sudobility/shapeshyft_service": ["@sudobility/shapeshyft_service@1.0.11", "", { "dependencies": { "@hono/zod-validator": "^0.7.5", "@sudobility/shapeshyft_engine": "^1.0.10", "resend": "^6.9.2", "zod": "^3.24.0" }, "peerDependencies": { "@sudobility/auth_service": "^1.1.22", "@sudobility/entity_service": "^1.0.42", "@sudobility/ratelimit_service": "^1.0.40", "@sudobility/subscription_service": "^1.0.24", "@sudobility/types": "^1.9.68", "drizzle-orm": "^0.45.0", "firebase-admin": "^13.6.0", "hono": "^4.10.7", "postgres": "^3.4.7" } }, "sha512-EloJF83mclt0ItlL00mnXdBanQNvobPLaudZoOOpnvY5k5+sTGG/rxFIgpru4YwLd2pIncu/tp9evflkslDeOg=="],
+    "@sudobility/shapeshyft_service": ["@sudobility/shapeshyft_service@1.0.12", "https://npm.pkg.github.com/download/@sudobility/shapeshyft_service/1.0.12/9049960bbff3642bc81486da6a697b5ee5d7cb47", { "dependencies": { "@hono/zod-validator": "^0.7.5", "@sudobility/shapeshyft_engine": "^1.0.12", "resend": "^6.9.2", "zod": "^3.24.0" }, "peerDependencies": { "@sudobility/auth_service": "^1.1.25", "@sudobility/entity_service": "^1.0.45", "@sudobility/ratelimit_service": "^1.0.43", "@sudobility/subscription_service": "^1.0.27", "@sudobility/types": "^1.9.72", "drizzle-orm": "^0.45.0", "firebase-admin": "^13.6.0", "hono": "^4.10.7", "postgres": "^3.4.7" } }, "sha512-E1jVEgG0S5gi6i+QCsilR5MVu09FKz+AsbLoHrg9BTOscPJwyHNrLqV0Rt8A5rMV6G17L1nZUVI4Qo3OKIG8cQ=="],
 
-    "@sudobility/subscription_service": ["@sudobility/subscription_service@1.0.24", "", {}, "sha512-M79uWMMxzAg0lmo0Qk4wKs6lg1eK65S/abMCAF6WD+33TIJnnd9LIRr/seOQTwnK07y0TXeDe0LA7ZX2dn7Img=="],
+    "@sudobility/subscription_service": ["@sudobility/subscription_service@1.0.29", "https://npm.pkg.github.com/download/@sudobility/subscription_service/1.0.29/79b807478f5985cb1373d6050b8f23539a1d9eef", {}, "sha512-bOMl36uSWHibIYYangoqUjIHl/SWO3JOt2ZvKncGHkrcdl3SeRxuw+EV7O+cAt51HWExBS1AmZAw1GxSnXMZBw=="],
 
-    "@sudobility/test-db-guard": ["@sudobility/test-db-guard@1.0.2", "", {}, "sha512-MFvX5e3VMprZLAw8iQIIfqZhy2Sod/wE6ytHBjMJHEE+IKHNSe9qPkXu6QpmZYVvwIOW7vOc84q0XkkKkF49Tw=="],
+    "@sudobility/test-db-guard": ["@sudobility/test-db-guard@1.0.3", "https://npm.pkg.github.com/download/@sudobility/test-db-guard/1.0.3/1b60364ccb30369e4ddc9a005ffdf03ea2644a65", {}, "sha512-VLYACu7PMDG4hqO9g5y/E0NOgDNS5HnG+UU/jr5Po0S5zrZv80i51rxwC2sOVX8gbyR04s632OoMULFiju4aZw=="],
 
-    "@sudobility/types": ["@sudobility/types@1.9.68", "", {}, "sha512-4LL5+UfcqQcc0PKKR/z/PqS6j9DQPVkkjL+3oOW+Bwx0TAu1SVKAlPhlt/9ruNMW+abcHuZoFvbOVD5gdYBSGw=="],
+    "@sudobility/types": ["@sudobility/types@1.9.74", "https://npm.pkg.github.com/download/@sudobility/types/1.9.74/f9ad864ba5d8d1097e7e48378ebee8aa7e129e88", {}, "sha512-jgt0F1r71qjFNiRNn/1YlL4JU65sjnzYd8Sfi+Y9z62Lu9VhIXeqWAH12u7/hmGPZqG3nxzn0V+s3sFkB1qWuQ=="],
 
     "@tootallnate/once": ["@tootallnate/once@2.0.0", "", {}, "sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A=="],
 
