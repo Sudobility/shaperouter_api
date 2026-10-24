@@ -1,6 +1,6 @@
 {
   "name": "shaperouter_api",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "module": "src/index.ts",
   "type": "module",
   "private": true,
@@ -46,8 +46,8 @@
     "@sudobility/entity_service": "^1.0.50",
     "@sudobility/ratelimit_service": "^1.0.48",
     "@sudobility/shaperouter_types": "^0.0.15",
-    "@sudobility/shapeshyft_engine": "^1.0.12",
-    "@sudobility/shapeshyft_service": "^1.0.12",
+    "@sudobility/shapeshyft_engine": "^1.0.13",
+    "@sudobility/shapeshyft_service": "^1.0.13",
     "@sudobility/subscription_service": "^1.0.32",
     "@sudobility/types": "^1.9.76",
     "drizzle-orm": "~0.45.4",
