@@ -8,13 +8,13 @@
         "@anthropic-ai/sdk": "~0.39.0",
         "@google/generative-ai": "~0.21.0",
         "@hono/zod-validator": "~0.7.6",
-        "@sudobility/auth_service": "^1.1.29",
-        "@sudobility/entity_service": "^1.0.49",
-        "@sudobility/ratelimit_service": "^1.0.47",
-        "@sudobility/shaperouter_types": "^0.0.14",
+        "@sudobility/auth_service": "^1.1.30",
+        "@sudobility/entity_service": "^1.0.50",
+        "@sudobility/ratelimit_service": "^1.0.48",
+        "@sudobility/shaperouter_types": "^0.0.15",
         "@sudobility/shapeshyft_engine": "^1.0.12",
         "@sudobility/shapeshyft_service": "^1.0.12",
-        "@sudobility/subscription_service": "^1.0.31",
+        "@sudobility/subscription_service": "^1.0.32",
         "@sudobility/types": "^1.9.76",
         "drizzle-orm": "~0.45.4",
         "firebase-admin": "~13.10.0",
@@ -293,19 +293,19 @@
 
     "@standard-schema/spec": ["@standard-schema/spec@1.1.0", "", {}, "sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w=="],
 
-    "@sudobility/auth_service": ["@sudobility/auth_service@1.1.29", "https://npm.pkg.github.com/download/@sudobility/auth_service/1.1.29/e027820deaa9741160105affc7a83bc116f51770", { "peerDependencies": { "@sudobility/types": "^1.9.76", "firebase-admin": "^13.0.0" } }, "sha512-Q6sViw3i6CGZ88+PpwLQoLAdTfeVCCSvIHm0BmFRNPsMZLdru3ZoVNzBkA0JprCvG5aPbzhJ+cHR6nZkIu/HBA=="],
+    "@sudobility/auth_service": ["@sudobility/auth_service@1.1.30", "https://npm.pkg.github.com/download/@sudobility/auth_service/1.1.30/ecd6cc5b9ff82cfbbcc3db42df53142f88736844", { "peerDependencies": { "@sudobility/types": "^1.9.76", "firebase-admin": "^13.0.0" } }, "sha512-/L6isHwryBTTMo7+SpdUFUzWpYfRefEBkCxZEAPiC7fgJVYha2ZmhyYChWQLFcQILcnq7tYhk9+IejKbjq8WxQ=="],
 
-    "@sudobility/entity_service": ["@sudobility/entity_service@1.0.49", "https://npm.pkg.github.com/download/@sudobility/entity_service/1.0.49/cb4713d31b89f70569a9ee42f7179b6f1f03edac", { "peerDependencies": { "@sudobility/types": "^1.9.76", "drizzle-orm": "^0.45.0", "hono": "^4.0.0" } }, "sha512-NoTqhJc9WiYEWAPzVYEQSZM50/6gGCOPcDLXOMHkEWCv3kuE6CSFQcM0DX1r6SDcM5k+KgS/LVVkFOUAwAWUYA=="],
+    "@sudobility/entity_service": ["@sudobility/entity_service@1.0.50", "https://npm.pkg.github.com/download/@sudobility/entity_service/1.0.50/44fece74c9b8d5fff38b5f8a4bcc30a1200fec8f", { "peerDependencies": { "@sudobility/types": "^1.9.76", "drizzle-orm": "^0.45.0", "hono": "^4.0.0" } }, "sha512-GWijrdROV/ZwcXDi3KLsDq1K4r8FTzJ5sJY8TBJMJcKuTN7Mqg1Ly4qbmEmRtbWIlxxYSkwmMFrSnYGD9KRJ9Q=="],
 
-    "@sudobility/ratelimit_service": ["@sudobility/ratelimit_service@1.0.47", "https://npm.pkg.github.com/download/@sudobility/ratelimit_service/1.0.47/26fdf68eef8a16db207010954c0f5ba594d879e8", { "peerDependencies": { "@sudobility/types": "^1.9.76", "drizzle-orm": "^0.45.0", "hono": "^4.0.0", "postgres": "^3.4.0" } }, "sha512-knXxGCu2t2zDaEG0850vvmm7/Sq9EjW2yZw0Us+mB4DsmyfBQGbW5/hI2NnfjJq2UBB3SZRR6LHsjSHwhOljAQ=="],
+    "@sudobility/ratelimit_service": ["@sudobility/ratelimit_service@1.0.48", "https://npm.pkg.github.com/download/@sudobility/ratelimit_service/1.0.48/aae0a048ac53efea5c22e82e4af87d835576ae8a", { "peerDependencies": { "@sudobility/types": "^1.9.76", "drizzle-orm": "^0.45.0", "hono": "^4.0.0", "postgres": "^3.4.0" } }, "sha512-PiXSP0G3OkyiWC2Qjbs8dY32e3TsTW+L+kipRHQ+EPQGSLn4/Gq1YBHpSMUbwHPkOpV4ssNpg8Uz8V1zdMLUsg=="],
 
-    "@sudobility/shaperouter_types": ["@sudobility/shaperouter_types@0.0.14", "https://npm.pkg.github.com/download/@sudobility/shaperouter_types/0.0.14/ffc7771bec896e3359a73d841a20ed66d1d04d4d", { "peerDependencies": { "@sudobility/shapeshyft_engine": "^1.0.12", "@sudobility/types": "^1.9.76" } }, "sha512-w8qVCwTlqQKxOE5ajKvJTXMyldFd9942fPiZZzDNK4NyZc4ROwWBz3G8WMv8yxbAVMPN19sKPjTc/SgJy/rX7g=="],
+    "@sudobility/shaperouter_types": ["@sudobility/shaperouter_types@0.0.15", "https://npm.pkg.github.com/download/@sudobility/shaperouter_types/0.0.15/75b15ecba4680588511fe193951e49310997dfe8", { "peerDependencies": { "@sudobility/shapeshyft_engine": "^1.0.12", "@sudobility/types": "^1.9.76" } }, "sha512-4gz2rdSy4p6r7L0NRO5Bc5huHhetPVE2oER863/+vtX49kRu8YUZKyADiOtC/okEi88UwKIZWeTXUBbb7TNnJQ=="],
 
     "@sudobility/shapeshyft_engine": ["@sudobility/shapeshyft_engine@1.0.12", "https://npm.pkg.github.com/download/@sudobility/shapeshyft_engine/1.0.12/eb2fc50373abd3808ed16f948001f6e091ddea52", { "dependencies": { "@sudobility/types": "^1.9.72" }, "peerDependencies": { "@anthropic-ai/sdk": "^0.39.0", "@google/generative-ai": "^0.21.0", "groq-sdk": "^0.37.0", "openai": "^4.77.0", "sharp": "^0.35.4" } }, "sha512-gNVH89kzF7eVTwW+nXNKh1+eCEyjv3yluiiYUAw+xJfYsqbcKliMOFCT2Bs8RGczFC1juUCOscwbFlhCSlhsHA=="],
 
     "@sudobility/shapeshyft_service": ["@sudobility/shapeshyft_service@1.0.12", "https://npm.pkg.github.com/download/@sudobility/shapeshyft_service/1.0.12/9049960bbff3642bc81486da6a697b5ee5d7cb47", { "dependencies": { "@hono/zod-validator": "^0.7.5", "@sudobility/shapeshyft_engine": "^1.0.12", "resend": "^6.9.2", "zod": "^3.24.0" }, "peerDependencies": { "@sudobility/auth_service": "^1.1.25", "@sudobility/entity_service": "^1.0.45", "@sudobility/ratelimit_service": "^1.0.43", "@sudobility/subscription_service": "^1.0.27", "@sudobility/types": "^1.9.72", "drizzle-orm": "^0.45.0", "firebase-admin": "^13.6.0", "hono": "^4.10.7", "postgres": "^3.4.7" } }, "sha512-E1jVEgG0S5gi6i+QCsilR5MVu09FKz+AsbLoHrg9BTOscPJwyHNrLqV0Rt8A5rMV6G17L1nZUVI4Qo3OKIG8cQ=="],
 
-    "@sudobility/subscription_service": ["@sudobility/subscription_service@1.0.31", "https://npm.pkg.github.com/download/@sudobility/subscription_service/1.0.31/75e7c299ed0bb0e3ffe030d928a9546f973aac0b", {}, "sha512-IOMfws2N/EB2KMRNAZMevUK4ngcDMkIuGHDFLurwSJX0rHWB7OX9yQ8CHryT0xnmahVfGkCAdRGGZX/gxpkInw=="],
+    "@sudobility/subscription_service": ["@sudobility/subscription_service@1.0.32", "https://npm.pkg.github.com/download/@sudobility/subscription_service/1.0.32/182fb60c596502516227f01d846527bbe4818565", {}, "sha512-tmT9ftmNZsVar9tQ75UblhRjrlj30V5IYVOwaT/GSGJP8iLrA5wZe7KYqbbfaBllx70Be0SbSgJyqYXMoA1AKw=="],
 
     "@sudobility/test-db-guard": ["@sudobility/test-db-guard@1.0.3", "https://npm.pkg.github.com/download/@sudobility/test-db-guard/1.0.3/1b60364ccb30369e4ddc9a005ffdf03ea2644a65", {}, "sha512-VLYACu7PMDG4hqO9g5y/E0NOgDNS5HnG+UU/jr5Po0S5zrZv80i51rxwC2sOVX8gbyR04s632OoMULFiju4aZw=="],
 
@@ -661,7 +661,7 @@
 
     "humanize-ms": ["humanize-ms@1.2.1", "", { "dependencies": { "ms": "^2.0.0" } }, "sha512-Fl70vYtsAFb/C06PTS9dZBo7ihau+Tu/DNCk/OyHhea07S+aeMWpFFkUaXRa8fI+ScZbEI8dfSxwY7gxZ9SAVQ=="],
 
-    "ignore": ["ignore@7.0.13", "", {}, "sha512-2E8Q6rh+1RRSq/YdaGsNfXsEZy9FVqv6BSSrkmZJP7BnaoPnRfKL+YaofPvP+5rzdk144qSm6i4+hvPgUcbV4Q=="],
+    "ignore": ["ignore@7.0.14", "", {}, "sha512-wCBiZ77u1tuWde6G/nfOtLaCTYcFDU5yCzARzK10y+rLhzYoL7a7yEemcopcc2Mzow7gZOIjnV2ym1NYmdiJOQ=="],
 
     "import-fresh": ["import-fresh@3.3.1", "", { "dependencies": { "parent-module": "^1.0.0", "resolve-from": "^4.0.0" } }, "sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ=="],
 
