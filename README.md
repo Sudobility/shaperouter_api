@@ -63,8 +63,8 @@ Supports 10 LLM providers: OpenAI, Anthropic, Gemini, Groq, Mistral, xAI, DeepSe
 
 ```bash
 bun run dev          # Dev server with hot reload
-bun run test         # Unit tests (Vitest; never plain `bun test`)
-TEST_DATABASE_URL=postgresql://localhost:5432/shaperouter_test bun run test:db  # Database tests
+bun run test:unit    # Unit tests (Vitest; never plain `bun test`). There is no `bun run test`.
+TEST_DATABASE_URL=postgresql://localhost:5432/shaperouter_test bun run test:db  # Database tests (localhost only)
 bun run typecheck    # TypeScript check
 bun run lint         # ESLint
 bun run verify       # Typecheck + lint + unit tests
