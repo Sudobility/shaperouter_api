@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import { cors } from "hono/cors";
-import { successResponse } from "@sudobility/shaperouter_types";
+import { successResponse } from "@sudobility/types";
 import { mockFirebaseAuthMiddleware, type MockFirebaseUser, testUser } from "./mock-auth";
 import { service, mountShaperouterRoutes } from "../../src/service";
 
