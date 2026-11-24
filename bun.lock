@@ -11,9 +11,9 @@
         "@sudobility/auth_service": "^1.1.36",
         "@sudobility/entity_service": "^1.0.56",
         "@sudobility/ratelimit_service": "^1.0.54",
-        "@sudobility/shaperouter_types": "^0.0.29",
+        "@sudobility/shaperouter_types": "^0.0.30",
         "@sudobility/shapeshyft_engine": "^1.0.21",
-        "@sudobility/shapeshyft_service": "^1.0.28",
+        "@sudobility/shapeshyft_service": "^1.0.29",
         "@sudobility/subscription_service": "^1.0.38",
         "@sudobility/types": "^1.11.2",
         "drizzle-orm": "~0.45.4",
@@ -299,11 +299,11 @@
 
     "@sudobility/ratelimit_service": ["@sudobility/ratelimit_service@1.0.54", "https://npm.pkg.github.com/download/@sudobility/ratelimit_service/1.0.54/35d17a3e5050a630ac896fe0979c273ab36bf276", { "peerDependencies": { "@sudobility/types": "^1.11.2", "drizzle-orm": "^0.45.0", "hono": "^4.0.0", "postgres": "^3.4.0" } }, "sha512-gujOGBgiyz6shtoj8XOfbaIabqvTNBMlU+5mvqU1qa9AS1QKLAzNmTgL6xTOytN6Ep0fwn7U1SYLUi/eO26Naw=="],
 
-    "@sudobility/shaperouter_types": ["@sudobility/shaperouter_types@0.0.29", "https://npm.pkg.github.com/download/@sudobility/shaperouter_types/0.0.29/de016110b5c76fb66c5ddd71e0f1035897d3023e", { "peerDependencies": { "@sudobility/shapeshyft_engine": "^1.0.20", "@sudobility/types": "^1.11.2" } }, "sha512-hPD71CRLJFG3HuxU74jwXD8uiBmeWHV4CIESghwzDl+ROlsjFbx17EvKvhH1TOix5XHe4CwLWfaONAGDIo/H2w=="],
+    "@sudobility/shaperouter_types": ["@sudobility/shaperouter_types@0.0.30", "https://npm.pkg.github.com/download/@sudobility/shaperouter_types/0.0.30/3d0847ff0369fd91800d020668320ced24660eb0", { "peerDependencies": { "@sudobility/shapeshyft_engine": "^1.0.21", "@sudobility/types": "^1.11.2" } }, "sha512-lQAXByj1SZsq83WTWbd9LRpUAZgBQXO0FG809x2HYpzkRWe4CicFwChzjZzr5qJcc3SoNm9xws3grv4vXMG5aQ=="],
 
     "@sudobility/shapeshyft_engine": ["@sudobility/shapeshyft_engine@1.0.21", "https://npm.pkg.github.com/download/@sudobility/shapeshyft_engine/1.0.21/8cd0a5d9e3e30397f7a83a439113e702242d4372", { "dependencies": { "@sudobility/types": "^1.11.2" }, "peerDependencies": { "@anthropic-ai/sdk": "^0.39.0", "@google/generative-ai": "^0.21.0", "groq-sdk": "^0.37.0", "openai": "^4.77.0", "sharp": "^0.35.4" } }, "sha512-0C6/CxSg21S23ll98ZcwHXW6yqR9887nHrZNQ2r0ex7nO7x6zK1a3wgfIc0zvHTOj+jOywNoUOw0K8mLQtItAQ=="],
 
-    "@sudobility/shapeshyft_service": ["@sudobility/shapeshyft_service@1.0.28", "https://npm.pkg.github.com/download/@sudobility/shapeshyft_service/1.0.28/df4c60a486465cacffe54f0ea57c06675d961ec5", { "dependencies": { "@hono/zod-validator": "~0.7.6", "@sudobility/shapeshyft_engine": "^1.0.20", "resend": "~6.28.0", "zod": "~3.25.76" }, "peerDependencies": { "@sudobility/auth_service": "^1.1.36", "@sudobility/entity_service": "^1.0.56", "@sudobility/ratelimit_service": "^1.0.54", "@sudobility/subscription_service": "^1.0.38", "@sudobility/types": "^1.11.2", "drizzle-orm": "^0.45.0", "firebase-admin": "^13.6.0", "hono": "^4.10.7", "postgres": "^3.4.7" } }, "sha512-VsiBq3rAW6l864wdChHYuY32v5ojd5+dQOl3Kp6S3nfJSh+aE8LAbPPtCrFQCdTowKEFrKe0l72vUaUdCOVPvg=="],
+    "@sudobility/shapeshyft_service": ["@sudobility/shapeshyft_service@1.0.29", "https://npm.pkg.github.com/download/@sudobility/shapeshyft_service/1.0.29/affc24538a608070099ae37fa6cb13da8a53ae10", { "dependencies": { "@hono/zod-validator": "~0.7.6", "@sudobility/shapeshyft_engine": "^1.0.21", "resend": "~6.28.0", "zod": "~3.25.76" }, "peerDependencies": { "@sudobility/auth_service": "^1.1.36", "@sudobility/entity_service": "^1.0.56", "@sudobility/ratelimit_service": "^1.0.54", "@sudobility/subscription_service": "^1.0.38", "@sudobility/types": "^1.11.2", "drizzle-orm": "^0.45.0", "firebase-admin": "^13.6.0", "hono": "^4.10.7", "postgres": "^3.4.7" } }, "sha512-xfbJIKvnFluk67bY43rwB2A1DF9Uuy0hyqofWtTVth8DmF4XO0N4cySbtXL90ouJEJd42t1wsG1/cMsHOpDPAA=="],
 
     "@sudobility/subscription_service": ["@sudobility/subscription_service@1.0.38", "https://npm.pkg.github.com/download/@sudobility/subscription_service/1.0.38/ce2b9b1f0d79d658cc2f748c51777e5f62d400cc", {}, "sha512-/+H2flK3hGG2ZDKw2niO7maVmTJqieMul66mgRaBi3N7JFl0Glr4ncgrEDIGLyTHex8DEFF//Y6ZTHIPzntgrQ=="],
 
